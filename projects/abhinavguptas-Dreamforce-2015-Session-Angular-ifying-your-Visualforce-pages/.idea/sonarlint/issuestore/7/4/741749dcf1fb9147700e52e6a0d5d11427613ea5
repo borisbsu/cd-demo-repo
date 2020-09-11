@@ -1,0 +1,16 @@
+
+Zsf:AvoidReassigningParameters¢"0Avoid reassigning parameters such as 'fieldlist'(ìº¦Ô
+{sf:DMLWithoutSharingEnabled"TWith Sharing should be used on classes that make use of DML. First usage on line 141(›®³Š
+‰sf:AvoidDuplicateLiterals^"_The String literal 'not_found' appears 5 times in this file; the first occurrence is on line 94(Ë±ÑÉúÿÿÿÿ
+€sf:SOQLInjectionŒ"^SOQL Injection possible with variable soql. May be tainted by external parameter
+  at soql:265(Ú¹¢öúÿÿÿÿ
+Bsf:GodClass"+Possible God class (WMC=50, ATFD=27, TCC=0)(›®³Š
+rsf:CyclomaticComplexity"OThe class 'RemoteTKController' has a Cyclomatic Complexity of 5 (Highest = 14).(›®³Š
+^sf:CyclomaticComplexity(";The method 'writeFields' has a Cyclomatic Complexity of 14.(¦„‚
+{sf:SOQLInjection"^SOQL Injection possible with variable sosl. May be tainted by external parameter
+  at sosl:282(îµÎ¸
+¾sf:UseSingleton"¢All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.(›®³Š
+¥sf:AvoidDuplicateLiterals^"{The String literal 'the requested resource does not exist' appears 5 times in this file; the first occurrence is on line 94(Ë±ÑÉúÿÿÿÿ
+“sf:SOQLInjection³"qSOQL Injection possible with variable soql. May be tainted by external parameter
+  at fieldlist:162
+  at soql:176(Ú¹¢öúÿÿÿÿ
