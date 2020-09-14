@@ -16,16 +16,6 @@ jobs:
             # the head of the pull request instead of the merge commit.
             -   run: git checkout HEAD^2
                 if: ${{ github.event_name == 'pull_request' }}
-
-            -   name: Cache files
-                uses: actions/cache@v2
-                with:
-                    path: |
-                        ~/.m2
-                        ~/.sonar
-                    key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
-                    restore-keys: ${{ runner.os }}-m2
-
             -   name: Run Analysis
                 uses: borisbsu/codescan-scanner-action@main
                 with:
